@@ -1,1 +1,1 @@
-web: uvicorn dashboard.asgi
+web: uvicorn dashboard:app --workers 1
