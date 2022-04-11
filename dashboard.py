@@ -53,7 +53,8 @@ def main():
         data = df[df['identifiant'] == ID]
         del (data['identifiant'])
         data = data.to_json()
-        pred = request_prediction(model_uri, data)[0]
+        # pred = request_prediction(model_uri, data)[0]
+        pred = 0.6
         st.write(
             'The probability of giving a loan for this client is {:.2f}'.format(pred))
 
