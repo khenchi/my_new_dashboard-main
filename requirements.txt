@@ -1,7 +1,3 @@
 pandas
-fastapi
-uvicorn
-lightgbm
-shap
 requests==2.27.1
 streamlit==1.5.0

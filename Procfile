@@ -1,1 +1,1 @@
-web: uvicorn dashboard:app --workers 1
+web: streamlit run --server.port $PORT dashboard.py
